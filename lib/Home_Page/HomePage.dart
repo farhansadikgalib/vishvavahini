@@ -117,7 +117,6 @@ class _HomePageState extends State<HomePage> {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
         statusBarColor: Color.fromRGBO(10, 39, 255,1)
     ));
-
     return OnBackPressed(
       perform: (){
         _webViewController!.goBack();
